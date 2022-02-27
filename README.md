@@ -2,7 +2,7 @@
 
 Many of Sierra's SCI games, such as King's Quest IV, Space Quest III, etc., have built-in game specific debuggers. 
 
-SCI0 games are typically activated with a secret phrase, such as PUMP SHARK in SQ3, but most SCI1 games require a patch file be exported and modified with a hex editor to enable. 
+SCI0 games are typically activated with a secret phrase, such as PUMP SHARK in SQ3, but most SCI1 games require a patch file be exported and modified with a hex editor to enable debugging. 
 
 The goal of this resource is to:
 
