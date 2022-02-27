@@ -10,7 +10,7 @@ The goal of this resource is to:
 
 Currently a work in progress. Contributions and suggestions are welcome.
 
-## Acknowledgements
+##
 
 This resource was compiled and reserached using SCIWIKI, SCI Decompile Archive and SCICompanion.
 
