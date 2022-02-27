@@ -12,7 +12,7 @@ Currently a work in progress. Contributions and suggestions are welcome.
 
 ##
 
-This resource was compiled and reserached using SCIWIKI, SCI Decompile Archive and SCICompanion.
+This resource was compiled and reserached using the SCIWiki, SCI Decompile Archive and SCICompanion.
 
 ### SCIWIKI
 
