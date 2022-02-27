@@ -3,9 +3,9 @@ King's Quest V Inventory and Flag reference
 From the SCI Decompile Archive
 https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/kq5cd/src/game.sh
 
-==========
-Inventory:
-==========
+================
+Inventory Items:
+================
 
 iKey		1
 iPie		2

@@ -40,8 +40,8 @@ Note that the activation procedure has to be repeated for each time you use an o
 extract SCRIPT.000 from the RESOURCE files and use the table below to know which byte to change in your version.
 While you're at it, you can also change a byte to enable the debug mode from start.
 
- 	Remove deactivation	Enable debug from start
- 	offset	org	new	offset	org	new
+ 				Remove deactivation	Enable debug from start
+ 				offset	org	new	offset	org	new
 King's Quest 5 EGA 0.000.055	0xB77	00	01	0x3A6A	00	01
 King's Quest 5 VGA 0.000.051	0xB75	00	01	0x3A66	00	01
 

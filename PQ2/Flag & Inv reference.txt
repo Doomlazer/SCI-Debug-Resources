@@ -3,9 +3,9 @@ Police Quest II Inventory and Flag reference
 From the SCI Decompile Archive
 https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/pq2/src/game.sh
 
-==========
-Inventory:
-==========
+================
+Inventory Items:
+================
 
 iHandGun		0
 iAmmoClips		1

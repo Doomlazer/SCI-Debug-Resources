@@ -8,7 +8,6 @@ The goal of this resource is to:
 2. Provide the needed patch files for people uncomfortable with hex editing.
 3. Fix broken debug features and add new useful commands where possible.
 
-
 Currently a work in progress. Contributions and suggestions are welcome.
 
 This resource was compiled and reserached using SCICompanion, the SCI Decompile Archive and the SCIWIKI.
@@ -24,3 +23,7 @@ https://github.com/EricOakford/SCI-Decompilation-Archive
 ### SCIWIKI
 
 http://sciwiki.sierrahelp.com/index.php?title=SCI_Debug_Modes
+
+Info on the generic SCI Kernel Debugger, which exisits in addition to game specific debuggers:
+
+http://sciwiki.sierrahelp.com//index.php?title=SCI_Kernel_Documentation/Debugging_Functions

@@ -42,9 +42,9 @@ In the circular ScummSoft hallway (teleport room 90):
 Typing "Get a life" changes Roger's outfit and gives him the following items:
 Keycard, Coveralls, Vaporizer and A Copy of Elmo's Picture.
 
-==========
-Inventory:
-==========
+================
+Inventory Items:
+================
 
 iGlowingGem		0
 iWire			1

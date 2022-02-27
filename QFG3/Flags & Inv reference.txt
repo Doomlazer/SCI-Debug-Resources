@@ -3,9 +3,9 @@ QFG3 Inventory and Flag number reference
 Infro from the SCI Decompile Archive
 https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/qfg3/src/game.sh
 
-==========
-Inventory:
-==========
+================
+Inventory Items:
+================
 
 iRoyals 	0 ;Dinars and Commons are stored in global variables 424 and 410, respectively.
 iSword		1
