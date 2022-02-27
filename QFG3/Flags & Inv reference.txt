@@ -1,0 +1,303 @@
+QFG3 Inventory and Flag number reference
+
+Infro from the SCI Decompile Archive
+https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/qfg3/src/game.sh
+
+==========
+Inventory:
+==========
+
+iRoyals 	0 ;Dinars and Commons are stored in global variables 424 and 410, respectively.
+iSword		1
+iFineDagger	2
+iFineSpear	3
+iChainmail	4
+iShield		5
+iGrapnel	6
+iToolkit	7
+iGuildCard	8  ;Unused, item data and description exist for this, but there is no corresponding icon.
+iTinderbox	9
+iDaggers	10
+iCurePills	11
+iHealPills	12
+iManaPills	13
+iRations	14
+iWaterskin	15
+iDispell	16
+iFish		17
+iMeat		18
+iFruit		19
+iBeads		20
+iSkins		21
+iHorn		22
+iRocks		23
+iVine		24
+iOil		25
+iRope		26
+iGagGift	27
+iPin		28
+iHoney		29
+iFeather	30
+iAmulet		31  ;Unused, you can't buy from the Amulet seller, and there is no corresponding icon or description.
+iLeopard	32
+iBird		33
+iOpal		34
+iVineFruit	35
+iGem		36
+iPeaceWater	37
+iHeartGift	38
+iOrchid		39
+iRobe		40
+iBridge		41
+iEye		42  ;Unused, the Anubis statue just has the Fire Opal item, and there is no corresponding icon.
+iNote		43
+iWood		44
+iMagicSpear	45
+MagicDrum	46
+
+
+======
+Flags:
+======
+
+fWornOut		1
+fHungry			2
+fStarving		3
+fUnused4		4
+fOverloaded		5
+fInMainGame		6
+fFlag7			7
+fReversal		8
+fListenedToStory	9
+fFlag10			10
+fGaveHorn		11
+fSoulJudged		12
+fGaveDrum		13
+fFlag14			14
+fCastingSpell		15
+fAfterMatch		16
+fUnused17		17
+fCantEnterSimbani	18 ;this flag should be set after the peace conference, but it never is
+
+fCantBePaladin		19
+fTarnaClosed		20
+fUnused21		21
+fHaramiRobbedChanger	22
+fRanAfterHarami		23
+fTrippedHarami		24
+fDaggeredHarami		25
+fFlamedHarami		26
+fUsedCalmOnHarami	27
+fDidntCatchHarami	28
+fLeopardmanCaptured	29
+fHelpedYesufu		30
+fFlag31			31
+fMetAardvark		32
+fUnused33		33
+fFlag34			34
+fRakeeshSworeOath	35
+fHaramiWasOnTrial	36
+fSawLeopardmanRitual	37
+fDispelledLeopardman	38
+fUnused30		39
+fMetHonorlessHarami	40
+fMetMoneyChanger	41
+fVisitedSimbani		42
+fAfterConference	43
+fHadPaladinCeremony	44
+fUnused45		45
+fHaramiSecondVisit	46
+fHaramiThirdVisit	47
+fMetRajah		48
+fMetLaibon		49
+fLaibonHutRepaired	50
+fGotGem			51
+fMeerbatDead		52
+fPracticedWithUhuraOnce	53
+fVisitedVines		54
+fMeerbatFreed		55
+fAfterRace		56
+fFoundReeshaka		57
+fAskedAboutDispel	58
+fBalanceBridge		59
+fEnteredTemple		60
+
+fBeenInLostCityPanorama	63
+fPracticedWithUhuraTwice64
+fJohariReleased		65
+fDayElderAnnouncement	67
+fNightElderAnnouncement	68
+fCanSummonStaff 	69
+fDayDispelMsg		70
+fNightDispelMsg		71
+fDayCongratsMsg		72
+fNightCongratsMsg	73
+fStoleDrum 		74
+fRakeeshLeftSimbani	75
+fEnteredMirrorRoom	77
+fKnockedOverFruit	80
+fEgoIsAsleep	 	81
+fDeWizBattle		82
+fHoneyBirdHinted	83
+fSpearedWiz		84
+fCanGoToSimbani		85
+fFirstEnteredSimbaniOverlook 86
+fFirstEnterSimbaniVillage 87
+fTravelWithSomeone	88
+fDeWizElectrocuted	89
+fChuckedSwordAtWiz	91
+fGoWithJohari		92
+fGoWithManu		93
+fCanGoToLeopardmanVillage 94
+fWillGoToWaterfall	95
+fMonkeysFindDeWorm	96
+fDeWizTookStaff		97
+fSawImpala		98
+fFoundHoneyBird		99
+fCharSheetActive 	101
+fJohariWatchingEgo 	102
+fIgnoredJohari		103
+fMetJohariInJungle	105
+fMetWeaponSeller	106
+fMetSanfordAndSon	107
+fGaveKattaNote		108
+fManuReleased		109
+fManuAbandoned1		110
+fManuAbandoned2		111
+fFedHarami 		113
+fBoughtCloth 		114
+fPoisoned 		115
+fGotOrchid 		116
+fWonGame		117
+fAfterStory		118
+fSpeedDisabled 		119
+fFlag121 		121
+fWitnessedRobbery	122
+fKnockingOverFruit	123
+fWizNoticesEgo		124
+fFlag125 		125
+fWillHaveMeeting 	130
+fNightPaletteDisabled 	131
+fEnteredGuardianDen	132
+fNeedStaff		133
+fAfterWaterfall		134
+fVisitedBazaar 		135
+fLostCityDoorOpen	136
+fFakeDeath 		140
+fStoleFromDrummer	141
+fSawKreeshaReading	142
+fStartedEncounter	143
+fWasWizard		144
+fGiftedCarvedLeopard	146
+fGotBlackBird		147
+fGotOpalAndFruit	148
+fTrainedAcrobatics	149
+fSenseDanger 		150
+fHonorShield 		151
+fInitiationComplete	154
+fReturnedToRakeesh	156
+fBabaFrog 		158
+fMetHarami		159
+
+fPrisonerEasterEgg	161
+fEgoHasDied		162
+fGotDrum		163
+fUnused164		164
+fShamanDead		165
+fGotFineDagger		166
+fGotFineSpear		167
+fGotRope		168
+fGotCarvedLeopard	169
+fGotRobe		170
+fDidMoneyExchange	171
+fHaramiGone		172
+
+fLearnFlamingSword	202
+fLearnHealing		203
+fLearnSenseDanger	204
+fLearnHonorShield	205
+fLearnJugglingLights	206
+fUnused207		207
+fExitTarna		208
+fEnteredSimbaniPanorama	209
+fEnteredGiantTreePanorama 210
+fEnteredLostCityPanorama 211
+fBeatDemonWormForMonkeys 212
+fExchangedDinars	213
+fLetHaramiEscape	214
+fStopHaramiWithMagic	215
+fChaseHarami		216
+fHaramiHitByDagger	217
+fHaramiSlipsOnFruit	218
+fBoughtZebraSkin	219
+fBoughtWaterskin	220
+fTellHaramiAboutRakeesh	221
+fBoughtFineSpear	222
+fBoughtOil		223
+fBoughtHoney		224
+fBoughtTinderbox	225
+fBoughtBlackBird	226
+fBoughtFineDagger	227
+fBuyRope		228
+fShowSignToHarami	229
+fAgreedToMeetHarami	230
+fBuyBeads		231
+fBuyCarvedLeopard	232
+fTellKattaAboutShapeir	233
+fGiveNote		234
+fBuyRobe		235
+fGiveMoneyToDrummer	236
+fMakeStaff		237
+fBecomePaladin		238
+fTellAboutInitiation	239
+fTellAboutDispelledLeopardLady 240
+fGiveFeather		241
+fGiveVineFruit		242
+fGivePeaceWater		243
+fGiveHeartGift		244
+fGetDispelPotions	245
+fTellAboutJulanar	246
+fReadBoard		247
+fAskAboutPeaceMission	248
+fPoliteToRajahFirst	249
+fPoliteToRajahSecond	250
+fSwearOath		251
+
+fBringGemToTemple	253
+fBeWorthy		254
+fBeInBalance		255
+fGetVineFruit		256
+fSaveMeerbat		257
+fGetWater		258
+fOrchidGlows		259
+
+fGetFeather		260
+fGetHorn		261
+fHearStory		262
+fLoseInitiation 	263
+fWinInitiation 		264
+fReturnSpear		265
+fBreakIntoLaibonHut	266
+
+fBeatCroc		292
+fBeatAnt		293
+fBeatDinosaur		294
+fLearnLightning		318
+fGreetJohari		319
+fTellAboutDrum		320
+
+fGetAnubisEyes		329
+fOpenLostCityDoor	330
+fPickDoorLock		331
+fLubedDoor		332
+fCalmDemons		333
+fCastOpenOnDoor		334
+fBeatFric		335
+fFindReeshaka		336
+fDispelReeshaka		337
+fWinGame		338
+fEnterMirrorRoom	339
+fBeatDeWiz		340
+fKnockedOrb		341
+fBeatGargoyle		342
+

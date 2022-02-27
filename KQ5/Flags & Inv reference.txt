@@ -1,0 +1,91 @@
+King's Quest V Inventory and Flag reference
+
+From the SCI Decompile Archive
+https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/kq5cd/src/game.sh
+
+==========
+Inventory:
+==========
+
+iKey		1
+iPie		2
+iNeedle		3
+iCoin		4
+iFish		5
+iBottle		6
+iStaff		7
+iShoe		8
+iHeart		9
+iHarp		10
+iGold		11
+iPuppet		12
+iPouch		13
+iEmeralds	14
+iWheel		15
+iStick		16
+iHoney		17
+iWax		18
+iLamb		19
+iRope		20
+iCrystal	21
+iHammer		22
+iShell		23
+iPeas		24
+iLocket		25
+iCloak		26
+iAmulet		27
+iWand		28
+iSled		29
+iIronBar	30
+iHook		31
+iCheese		32
+iElfShoes	33
+iTambourine	34
+iMordackWand	35
+iHairPin	36
+iCatFish	37
+iMongooseSpell	38
+iBunnySpell	39
+iRainSpell	40
+iTigerSpell	41
+
+
+======
+Flags:
+======
+
+fWearingCloak		15
+fHaveEaten		16
+fWitchCastSpell		18
+fTalkedToWitch		19
+fBeenInShoeShop		23
+fTalkedToShoeMakerWife	24
+fGotPie			25
+fSawBandits		32
+fEnteredCrispinHouse	37
+fMetYeti		40
+fFoundTemple		43
+fGotElfShoes		46
+fSnakeGone		47
+fFoundCamp		49
+fBeenInBakery		50
+fBanditsEnterTemple	52
+fSawDrunkGuy		53
+fCedricInjured		55	;cleared when Graham picks him up
+fCaughtElf		56
+fDefeatedYeti		57
+fTalkedToTailor		58
+fWandRecharged		60
+fGaveCatFish		62
+fThrewPeas		63
+fCastleTimeStopped	64
+fBeenAtTemple		70
+fHoldingCedric		74
+fCaughtByHenchman	77
+fWearingAmulet		84
+fSnakeWarns		87
+fWitchHere		90
+fFailedBoatCP		94
+fTalkedToToyMaker	108
+fCassimaCartoon		111
+fHermitCartoon		112

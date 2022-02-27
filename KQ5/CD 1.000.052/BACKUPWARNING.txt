@@ -1,0 +1,8 @@
+King's Quest 5 CD version 1.000.052 comes with it's own 0.SCR patch file that makes the game work correctly.
+Using this patch will require overwriting that file. 
+
+MAKE A BACKUP of the existing 0.SCR file in your KQ5 folder!
+
+This patch drastically changes behavior of the game and you will need the original 0.SCR to uninstall the patch.
+
+
