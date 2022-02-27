@@ -1,4 +1,4 @@
-# SCI-Debug-Resources
+# SCI Game Specific Debug Resources
 
 Many of Sierra's SCI games, such as King's Quest IV, Space Quest III, etc., have built-in game specific debuggers. 
 
