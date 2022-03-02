@@ -92,3 +92,110 @@ Code changed in script.000:
 						(
 						(& (= pEventModifiers (pEvent modifiers?)) 10) 
 
+
+
+=========
+TP Rooms:
+=========
+(Thanks Threepwang!)
+
+0 *
+1 Intro with title.
+2 Junkyard, start of the game.
+3 Freighter-scrapyard, ACME rocket.
+4 Freighter-scrapyard, bucket elevator.
+5 Freighter-scrapyard, tunnel outside left part.
+6 Scrapyard, interior left tunnel.
+7 Junkloader, head of the Transformers.
+8 Freighter-Scrapyard, Aluminum Mallard exterior.
+9 Freighter, in the bucket just before falling on the conveyor belt.
+10 Freighter, on the conveyor belt.
+11 Freighter, in the lift, above the Aluminum Mallard.
+12 Freighter, in the freight elevator, just before the CCTV room.
+13 Scrapyard, in CCTV room.
+14 Scrapship, in the ship.
+15 Junkyard, in the rat lair.
+16 Ship, systems diagnostic monitor.
+17 Ship, ship's on-board computer.
+18 Ship, on-board computer, shield and armament.
+19 Ship, on-board computer, space map.
+20 Space, exit from the scrapyard and direct death!
+21 *
+22 *
+23 *
+24 *
+25 Monolith Burger, the waiter.
+26 *
+27 Monolith Burger, docking scene.
+28 Monolith Burger, right side.
+29 Monolith Burger, left side.
+30 *
+31 Space, ship of the Arnoid.
+32 *
+33 *
+34 *
+35 *
+36 *
+37 *
+38 *
+39 *
+40 Phleebhut, the Arnoid leaves his ship.
+41 Phleebhut, desert.
+42 Phleebhut, entrance to the Mog.
+43 Phleebhut, in front of Fester's shop.
+44 Phleebhut, desert and sign to the right of the Mog.
+45 Phleebhut, desert.
+46 Phleebhut, desert area with the downhill.
+47 Phleebhut, view of the Mog in the distance.
+48 Phleebhut, desert and dubious rock.
+49 Phleebhut, in front of the Aluminum Mallard.
+50 Phleebhut, desert and rocks.
+51 Phleebhut, desert and rocks.
+52 Phleebhut, the creatures under the vault of the cave.
+53 Phleebhut, the giant snake.
+54 Phleebhut, desert and volcanoes.
+55 *
+56 *
+57 *
+58 *
+59 *
+60 Ortega, fall into the lava!
+61 Ortega, exterior.
+62 Ortega exiting the ship.
+63 Ortega, exterior.
+64 Ortega, exterior.
+65 *
+66 Ortega, exterior.
+67 Ortega, exterior.
+68 Ortega, fall into the lava!
+69 Ortega, in front of ScumSoft scientists.
+70 Ortega, in front of the short range fighter.
+71 Ortega, the surroundings of the volcano.
+72 Ortega, the crater.
+73 Ortega, in the crater, engine room.
+74 Ortega, in the crater, engine room, on the platform.
+75 Ortega, on the generator dome.
+76 *
+77 *
+78 *
+79 *
+80 Pestulon, in front of the Aluminum Mallard.
+81 Pestulon, hidden outside the entrance to the ScumSoft complex.
+82 *
+83 *
+84 *
+85 Pestulon, in front of the entrance to the ScumSoft complex.
+86 Pestulon, entrance to the ScumSoft complex, in front of the elevator.
+87 *
+88 *
+89 *
+90 ScumSoft, in the circular corridor.
+91 ScumSoft, accounting room entrance.
+92 ScumSoft, accounting.
+93 ScumSoft, Elmo's office.
+94 ScumSoft, the spaceport.
+95 ScumSoft, the detention room of the two guys from Andromeda.
+96 ScumSoft, robotic combat.
+97 *
+98 End, into the black hole.
+99 End, entering the black hole.
