@@ -5,7 +5,7 @@ Many of Sierra's SCI games, such as King's Quest IV, Space Quest III, etc., have
 The goal of this resource is to:
 
 1. Collect the most up-to-date information about these game specific debuggers.
-2. Provide the needed files for people uncomfortable with hex editing or exporting patches.
+2. Provide the needed files for people unfamiliar with hex editing or exporting patches.
 3. Fix broken debug features and add new useful commands where possible.
 
 Currently a work in progress. Contributions and suggestions are welcome.
