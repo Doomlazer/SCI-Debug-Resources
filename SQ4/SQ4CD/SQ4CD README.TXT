@@ -1,9 +1,8 @@
 Space Quest IV CD Version 1.0
 
-While BETA version of SQ4 included a debugger, it was removed from all retail versions. 
+While a beta version of SQ4 included a debugger, it was removed from all retail releases. 
 Script 800 contains a lot of the debug code, but key components have been removed making it impossible to activate. 
-Because of this, I needed to write new code in main.sc to export a functional patch file. 
-I've patched in most of the features from the SQ4 beta code, but it's not 100% accurate. 
+Because of this, I had to write new code in main.sc to export a functional patch file.  
 
 ============
 INSTALLATION 
