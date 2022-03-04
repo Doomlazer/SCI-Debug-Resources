@@ -1,4 +1,4 @@
-Space Quest IV CD Version 1.0
+Space Quest IV CD Version 1.0 Debugger
 
 While a beta version of SQ4 included a debugger, it was removed from all retail releases. 
 Script 800 contains a lot of the debug code, but key components have been removed making it impossible to activate. 
@@ -36,4 +36,5 @@ Command	Action	Notes
 [ALT + T]	Teleport (change room/scene/script)	 
 [ALT + W]	Feature writer ;crashed in beta, but it works fine here
 [ALT + Y]	Adjust vanishing point	 
-[ALT + Z]	Exit game	 
+[ALT + Z]	Exit game	
+[ALT + S]	Change song 
