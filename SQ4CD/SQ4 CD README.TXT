@@ -8,7 +8,7 @@ Because of this, I had to write new code in main.sc to export a functional patch
 INSTALLATION 
 ============
 
-Copy 0.scr and 0.hep to your SQ4 game folder and start normally.
+Copy 0.scr and 0.hep to your SQ4 game folder and start normally. This patch only works with the CD version. 
 
 
 
@@ -22,7 +22,7 @@ However, someone named "Beamer" typed up a list back then describing the functio
 
 Command	Action	Notes
 [ALT + A]	Show cast information (information about all objects on screen)	 
-[ALT + B]	Polygon editor (edit walking areas)	This option is removed and crashes the game
+[ALT + B]	Polygon editor (edit walking areas)
 [ALT + C]	Show control map	 
 [ALT + D]	DebugOn toggle (internal debugger on room change)	Works, but crashes on room change since the debugger is unavailable
 [ALT + E]	Show ego information	 
@@ -34,7 +34,7 @@ Command	Action	Notes
 [ALT + P]	Show priority map	 
 [ALT + R]	Show room info	 
 [ALT + T]	Teleport (change room/scene/script)	 
-[ALT + W]	Feature writer ;crashed in beta, but it works fine here
+[ALT + W]	Feature writer
 [ALT + Y]	Adjust vanishing point	 
 [ALT + Z]	Exit game	
-[ALT + S]	Change song 
+[ALT + S]	Change gLongSong/music (added Mar 4th 2022)
