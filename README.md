@@ -6,7 +6,7 @@ The goal of this resource is to:
 
 1. Collect the most up-to-date information about these game specific debuggers.
 2. Provide the needed files for people unfamiliar with hex editing or exporting patches.
-3. Fix broken debug features and add new useful commands where possible.
+3. Recreate missing debuggers and fix broken commands where possible.
 
 Currently a work in progress.
 
