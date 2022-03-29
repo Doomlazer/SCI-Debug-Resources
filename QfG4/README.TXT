@@ -1,4 +1,5 @@
-Quest for Glory 4 (Disk version)
+Quest for Glory 4 v1.0 Debugger
+
 info taken from:
 http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Quest_for_Glory_4_.28Disk_version.29
 

@@ -2,7 +2,7 @@ Police Quest 4 Floppy v1.000 debugger
 
 INSTALLATION
 
-Copy 1.hep and 2.scr into the PQ4 game folder and start normally.
+Copy 1.hep and 1.scr into the PQ4 game folder and start normally.
 
 
 Command	Action	Notes
