@@ -42,3 +42,52 @@ Command	Action
 [Ctrl + L.Shift + click]	Show ego
 [Ctrl + R.Shift + click]	Show room
 [Ctrl + ALT + click]	Show position
+
+
+
+===============
+INVENTORY ITEMS
+===============
+
+iSilver			0
+iRations		1
+iSword			2
+iChainmail		3
+iLeather		4
+iShield			5
+iDagger			6
+iLockPick		7
+iThiefKit		8
+iThiefLicense		9
+iRock			10
+iFlask			11
+iHealingPotion		12
+iManaPotion		13
+iStaminaPotion		14
+iDisenchant		15
+iBrassKey		16
+iMagicGem		17
+iRing			18	
+iGhostOil		19
+iMagicMirror		20
+iMandrake		21
+iFruit			22
+iVegetables		23
+iAcorn			24
+iSeed			25
+iFlowers		26
+iGreenFur		27
+iFairyDust		28
+iFlyingWater 		29
+iMushroom		30
+iVase			31
+iCandelabra		32
+iMusicBox		33
+iCandlesticks		34
+iPearls			35
+iCheetaurClaw		36
+iTrollBeard		37
+iGold			38
+iPaper			39
+iLastInvItem		40
+
