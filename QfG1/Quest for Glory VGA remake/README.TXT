@@ -15,14 +15,14 @@ Command	Action
 
 [ALT + C]	Show control lines
 [ALT + P]	Show priority screen
-[ALT + V]	Show visual screen
+[ALT + V]	Show visual screen2
 
 [ALT + D]	Place an actor  ****crash
 [ALT + E]	Show ego information  ******899.txt not found
 [ALT + F]	Show feature outlines
 [ALT + G]	Set global
 [ALT + H]	Show global
-[ALT + I]	Gives inventory item  ***lists items, then crashes
+[ALT + I]	Give inventory item
 [ALT + J]	Justify text on screen ******enter text (after this, get help CRASH
 [ALT + K]	Show pallet 
 [ALT + L]	Set flag
@@ -49,7 +49,7 @@ Command	Action
 INVENTORY ITEMS
 ===============
 
-iSilver			0
+iSilver			040
 iRations		1
 iSword			2
 iChainmail		3
@@ -89,5 +89,5 @@ iCheetaurClaw		36
 iTrollBeard		37
 iGold			38
 iPaper			39
-iLastInvItem		40
+
 
