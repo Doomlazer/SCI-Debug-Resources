@@ -66,34 +66,6 @@ iInvisibilityBelt	16
 iBagOfFastFood		17
 
 
-Note: SQ3 does not use "event flags"
-
-
-What was changed in main.sc?
-
-Orignional SCICompanion decompiled code:
-
-			(evMOUSEBUTTON
-				(if global200
-					(= pEventX (pEvent x?))
-					(= pEventY (pEvent y?))
-					(cond 
-						(
-						(== (= pEventModifiers (pEvent modifiers?)) 10)
-
-
-Code changed in script.000:
-
-			(evMOUSEBUTTON
-				(if global200
-					(= pEventX (pEvent x?))
-					(= pEventY (pEvent y?))
-					(cond 
-						(
-						(& (= pEventModifiers (pEvent modifiers?)) 10) 
-
-
-
 =========
 TP Rooms:
 =========
@@ -199,3 +171,27 @@ TP Rooms:
 97 *
 98 End, into the black hole.
 99 End, entering the black hole.
+
+
+Note: SQ3 does not use "event flags"
+
+
+What was changed in the Main script (script.000)?
+
+
+Orignional SCICompanion decompiled code:
+
+			(evMOUSEBUTTON
+				...
+						(== (= pEventModifiers (pEvent modifiers?)) 10)
+
+
+Code changed in script.000:
+
+			(evMOUSEBUTTON
+				...
+						(& (= pEventModifiers (pEvent modifiers?)) 10) 
+
+This change allows the mouse click debug commands work. All the text commands work fine in the vanilla version of the game out of the box! 
+
+
