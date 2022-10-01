@@ -9,7 +9,7 @@ Commands:
 
 [ALT-A]		Show Cast (does nothing)
 [ALT-B]		Polygon Editor (crashes game)
-[ALT-C]		Control map (crashes game)
+[ALT-C]		Control map
 [ALT-D]		DebugOn Toggle (doesn't seem to disable debug)
 [ALT-F]		Flag set/clr (appears to work, needs testing)
 [ALT-G]		Global set (appears to work, needs testing)
@@ -23,7 +23,7 @@ Commands:
 [ALT-T]		Teleport ("where to, Stud" menu)
 [ALT-U]		return User control (crashes game)
 [ALT-V]		Visual map
-[ALT-W]		feature Writer
+[ALT-W]		feature Writer (does nothing)
 [ALT-Y]		Vanishing point adj
 [ALT-Z]		QUICK QUIT
 
