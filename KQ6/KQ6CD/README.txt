@@ -44,13 +44,13 @@ Commands:
 [ALT-G]		Global set (appears to work, needs testing)
 [ALT-I]		Inv items
 [ALT-L]		Log file
-[ALT-M]		Memory (crashes game)
+[ALT-M]		Memory
 [ALT-P]		Priority map
 [ALT-Q]		show Cursor Coords
-[ALT-R]		Room info (crashes game)
+[ALT-R]		Room info (Shows info, then crashes game)
 [ALT-S]		Updating cast element (does nothing)
 [ALT-T]		Teleport ("where to, Stud" menu)
-[ALT-U]		return User control (crashes game)
+[ALT-U]		return User control (does nothing)
 [ALT-V]		Visual map
 [ALT-W]		feature Writer (does nothing)
 [ALT-Y]		Vanishing point adj
