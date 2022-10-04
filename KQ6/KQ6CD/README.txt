@@ -54,7 +54,7 @@ Commands:
 [ALT-M]		Memory
 [ALT-P]		Priority map
 [ALT-Q]		show Cursor Coords
-[ALT-R]		Room info (shows info, then crashes game)
+[ALT-R]		Room info
 [ALT-S]		Updating cast element
 [ALT-T]		Teleport ("where to, Stud" menu)
 [ALT-U]		return User control (does nothing)
