@@ -3,7 +3,13 @@ KQ6CD Debugger. This is a work in progress.
 Installation: 
 =============
 Copy/move 911.scr, 911.hep and 911.txt to your KQ6 game folder and start normally. 
+(optionally, copy the 'g' file for additional debug options)
 You should see a "Where to, STUD?" prompt immediately.
+
+For some reason the Sierra devs decided the debug commands should not work at all in the following rooms: 
+270, 280, 440, 450, 470, 480, 490, 670, 750,740
+
+If you prefer to overide this restriction, copy 0.src into your KQ6 game folder.
 
 Additional debug features
 =========================
@@ -16,7 +22,7 @@ Room 470 (dogtree): Gives inv items tomato, teaCup, huntersLamp, skull and dagge
 
 Room 480 (brats): Give flute and milk.
 Assign potion to room 480.
-Gives Alexander a reason to gather tears in a lamp (flag77).
+Sets flag 77.
 Set Chapter 4.
 
 Room740 (theGreatEscape): Chose one of the many possible endings.
@@ -36,23 +42,24 @@ Thanks to OmerMor for the background info and original 911 patches. found here: 
 
 Commands:
 =========
-[ALT-A]		Show Cast (does nothing)
-[ALT-B]		Polygon Editor (crashes game)
+[ALT-A]		Show Cast
+[ALT-B]		Polygon Editor
 [ALT-C]		Control map
-[ALT-D]		DebugOn Toggle (doesn't seem to disable debug)
-[ALT-F]		Flag set/clr (appears to work, needs testing)
-[ALT-G]		Global set (appears to work, needs testing)
+[ALT-D]		DebugOn Toggle (Crashes on screen change if enabled)
+[ALT-F]		Flag set/clr
+[ALT-G]		Global set
 [ALT-I]		Inv items
+[ALT-K]		Display Color Palette
 [ALT-L]		Log file
 [ALT-M]		Memory
 [ALT-P]		Priority map
 [ALT-Q]		show Cursor Coords
-[ALT-R]		Room info (Shows info, then crashes game)
-[ALT-S]		Updating cast element (does nothing)
+[ALT-R]		Room info (shows info, then crashes game)
+[ALT-S]		Updating cast element
 [ALT-T]		Teleport ("where to, Stud" menu)
 [ALT-U]		return User control (does nothing)
 [ALT-V]		Visual map
-[ALT-W]		feature Writer (does nothing)
+[ALT-W]		feature Writer
 [ALT-Y]		Vanishing point adj
 [ALT-Z]		QUICK QUIT
 
