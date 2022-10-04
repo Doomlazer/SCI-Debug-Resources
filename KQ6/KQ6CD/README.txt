@@ -1,18 +1,25 @@
-KQ6CD Debugger. This is a work in progress.
+KQ6CD Debugger
 
 Installation: 
 =============
+Minimum installation:
 Copy/move 911.scr, 911.hep and 911.txt to your KQ6 game folder and start normally. 
 (optionally, copy the 'g' file for additional debug options)
 You should see a "Where to, STUD?" prompt immediately.
 
+Extras:
 For some reason the Sierra devs decided the debug commands should not work at all in the following rooms: 
 270, 280, 440, 450, 470, 480, 490, 670, 750,740
 
-If you prefer to overide this restriction, copy 0.src into your KQ6 game folder.
+If you prefer to override this restriction, copy 0.src into your KQ6 game folder.
 
-Additional debug features
-=========================
+Kawa's interpreter: Included is SCI.EXE and the DBHELP.00x help files which feature a restored interpreter debugger. It enables many additional debugging tools such as breakpoints, stack trace, etc.. SCI.EXE can be renamed to SIERRA.EXE to replace the standard interpreter in the KQ6 game folder. Make sure to copy over the 3 DBHELP.00x files into the KQ6 game folder as well if you're going to use it. 
+
+This additional interpreter debugger is toggled with ALT-D, then changing rooms in-game. 
+
+
+Additional "g" debug features
+=============================
 Copying the "g" file to your game folder enables some additional debug features.
 Most require teleporting from the the Sierra logo at the start of the game to work:
 
@@ -26,7 +33,7 @@ Sets flag 77.
 Set Chapter 4.
 
 Room740 (theGreatEscape): Chose one of the many possible endings.
-This also works when teleporting from room 180 to 740, which uses a seprate script.
+This also works when teleporting from room 180 to 740, which uses a separate script.
 
 Room750 (continuedWindup): Gives inv item: peppermint, play music.
 If Jollo has lamp is chosen: assign newLamp to room 750, Load 'Jollo gives lamp' script (751) and LoadMany: scripts 128, 717, 754.
@@ -36,7 +43,11 @@ If Cassima has dagger, assign it to room 870.
 
 Special thanks: 
 ===============
-Thanks to OmerMor for the background info and original 911 patches. found here: https://sciprogramming.com/community/index.php?topic=1594.0
+Thanks to OmerMor for the background info and original 911 patches found here: https://sciprogramming.com/community/index.php?topic=1594.0
+
+Thanks to Kawa for the SCI.EXE interpreter w/ internal debugger. https://sciprogramming.com/community/index.php?topic=1802.msg12040#msg12040
+
+Thanks to Collector and lskovlun for advice and guidance. https://sciprogramming.com/community/index.php?topic=1594.0
 
 
 
@@ -45,7 +56,7 @@ Commands:
 [ALT-A]		Show Cast
 [ALT-B]		Polygon Editor
 [ALT-C]		Control map
-[ALT-D]		DebugOn Toggle (Crashes on screen change if enabled)
+[ALT-D]		DebugOn Toggle (Crashes on screen change if enabled, use Kawa's interpreter to fix)
 [ALT-F]		Flag set/clr
 [ALT-G]		Global set
 [ALT-I]		Inv items
@@ -133,7 +144,6 @@ fBeenInPawnshop 28
 fFragmented 38
 fEgoDead 44
 fIsVGA 48
-giveAlexanderReasonToCollectTears 77
 fTeleporting 103
 fFoundHair 143
 fUsedInk 151
