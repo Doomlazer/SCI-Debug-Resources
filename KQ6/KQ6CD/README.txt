@@ -7,15 +7,20 @@ Copy/move 911.scr, 911.hep and 911.txt to your KQ6 game folder and start normall
 (optionally, copy the 'g' file for additional debug options)
 You should see a "Where to, STUD?" prompt immediately.
 
+There are two mouse debug commands (see commands section) that require copying 0.scr to the KQ6 game folder to work, but this is optional. 
+
 Extras:
 For some reason the Sierra devs decided the debug commands should not work at all in the following rooms: 
 270, 280, 440, 450, 470, 480, 490, 670, 750,740
 
-If you prefer to override this restriction, copy 0.src into your KQ6 game folder.
+If you prefer to override this restriction, use the 0.scr found in the "non canon" folder of this patch.
 
-Kawa's interpreter: Included is SCI.EXE and the DBHELP.00x help files which feature a restored interpreter debugger. It enables many additional debugging tools such as breakpoints, stack trace, etc.. SCI.EXE can be renamed to SIERRA.EXE to replace the standard interpreter in the KQ6 game folder. Make sure to copy over the 3 DBHELP.00x files into the KQ6 game folder as well if you're going to use it. 
-
-This additional interpreter debugger is toggled with ALT-D, then changing rooms in-game. 
+Kawa's interpreter: Included is SCI.EXE and the DBHELP.00x help files which feature a restored interpreter debugger.
+It enables many additional debugging tools such as breakpoints, stack trace, etc..
+SCI.EXE can be renamed to SIERRA.EXE to replace the standard interpreter in the KQ6 game folder.
+Make sure to copy over the 3 DBHELP.00x files into the KQ6 game folder as well if you're going to use it. 
+This interpreter debugger is toggled with ALT-D, then changing rooms in-game.
+See SCI.EXE_Interpeter_README.txt for additional details 
 
 
 Additional "g" debug features
@@ -43,12 +48,9 @@ If Cassima has dagger, assign it to room 870.
 
 Special thanks: 
 ===============
-Thanks to OmerMor for the background info and original 911 patches found here: https://sciprogramming.com/community/index.php?topic=1594.0
-
-Thanks to Kawa for the SCI.EXE interpreter w/ internal debugger. https://sciprogramming.com/community/index.php?topic=1802.msg12040#msg12040
-
-Thanks to Collector and lskovlun for advice and guidance. https://sciprogramming.com/community/index.php?topic=1594.0
-
+Thanks to Collect,Kawa, lskovlun, and everyone at sciprogramming.com. 
+Especially OmerMor for the original 911 patches and background info from this post: 
+https://sciprogramming.com/community/index.php?topic=1594.0
 
 
 Commands:
@@ -56,7 +58,7 @@ Commands:
 [ALT-A]		Show Cast
 [ALT-B]		Polygon Editor
 [ALT-C]		Control map
-[ALT-D]		DebugOn Toggle (Crashes on screen change if enabled, use Kawa's interpreter to fix)
+[ALT-D]		DebugOn Toggle (Crashes on screen change if enabled, use Kawa's interpreter SCI.EXE to fix)
 [ALT-F]		Flag set/clr
 [ALT-G]		Global set
 [ALT-I]		Inv items
@@ -67,15 +69,18 @@ Commands:
 [ALT-Q]		show Cursor Coords
 [ALT-R]		Room info
 [ALT-S]		Updating cast element
-[ALT-T]		Teleport ("where to, Stud" menu)
-[ALT-U]		return User control (does nothing)
+[ALT-T]		Teleport
+[ALT-U]		return User control
 [ALT-V]		Visual map
 [ALT-W]		feature Writer
 [ALT-Y]		Vanishing point adj
 [ALT-Z]		QUICK QUIT
 
-[ALT-H]		Debug help
+[ALT-H]		Debug help message
 
+Mouse commands (requires included 0.scr):
+[Alt+Right_Click]	show Mouse X,Y
+[CTRL+Click]		move Ego to Mouse X,Y
 
 Inventory Items:
 ================
