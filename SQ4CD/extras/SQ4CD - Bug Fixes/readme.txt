@@ -2,4 +2,4 @@
 
 390.scr and 390.hep fixes a graphical priority issue allowing roger to move behind the gate when Hertz So Good is closed.
 
-NRS's sq4 patches are included here for convience.
+NRS's SQ4 patches are included here in SQ4CD_NRS.zip for convience. NSR is not affiliated with this project.
