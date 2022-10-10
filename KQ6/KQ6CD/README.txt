@@ -1,4 +1,5 @@
-KQ6CD Debugger
+KQ6CD Debugger 
+All Original functionality fully restored!
 
 Installation: 
 =============

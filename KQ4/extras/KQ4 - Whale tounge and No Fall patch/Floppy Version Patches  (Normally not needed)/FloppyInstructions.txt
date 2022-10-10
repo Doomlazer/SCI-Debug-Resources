@@ -1,0 +1,5 @@
+You can tell if you have the floppy version because the Yes/No buttons when asked if "you've played KQ4 before" will be green.
+
+If you are using the floppy version first copy the normal patches to your KQ4 game folder, then copy and replace the patches in this folder on top of those. 
+This folder, itself, should not be copied, just the patch files.
+ 

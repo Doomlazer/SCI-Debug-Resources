@@ -1,1 +1,0 @@
-This patch fixes a minor graphical issue on the "laserbeam hallway" keypad. 
