@@ -1,6 +1,6 @@
 Eco Quest: The Search for Cetus Floppy Version 1.000 Debugger
 
-INSTALLATION 
+work in progress. Very incomplete.
 
 
 

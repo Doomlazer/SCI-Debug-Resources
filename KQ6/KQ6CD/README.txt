@@ -49,7 +49,7 @@ If Cassima has dagger, assign it to room 870.
 
 Special thanks: 
 ===============
-Thanks to Collect,Kawa, lskovlun, and everyone at sciprogramming.com. 
+Thanks to Collector, Kawa, lskovlun and everyone at sciprogramming.com. 
 Especially OmerMor for the original 911 patches and background info from this post: 
 https://sciprogramming.com/community/index.php?topic=1594.0
 
