@@ -9,7 +9,7 @@ Copy all files in to your EQ1 game folder and start normally.
 
 Kawa's interpreter: Included is SCI.EXE and the DBHELP.00x help files which feature a restored interpreter debugger.
 It enables many additional debugging tools such as breakpoints, stack trace, etc..
-Note: ScummVM uses it's own internal debugger and will ignore SCI.EXE
+Note: ScummVM uses its own internal debugger and will ignore SCI.EXE
 SCI.EXE can be renamed to SIERRA.EXE to replace the standard interpreter in the EQ1 game folder or launched without renaming. 
 See SCI.EXE_Interpeter_README.txt for additional details. 
 
