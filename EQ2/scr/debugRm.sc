@@ -262,7 +262,7 @@
 							(gModelessDialog dispose:)
 						)
 						(if (> (= temp207 (GetNumber {Which room number?})) 0)
-							(gCurRoom newRoom: temp207)
+							(global2 newRoom: temp207)
 						)
 					)
 					(KEY_ALT_u
