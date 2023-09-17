@@ -1,5 +1,5 @@
-Eco Quest 1 Debugger Restoration
-v0.001
+Eco Quest 1 CD Debugger Restoration
+v0.002
 https://sciprogramming.com/community/index.php?topic=9154.msg74591
 
 Installation: 
