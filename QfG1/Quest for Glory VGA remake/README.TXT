@@ -2,48 +2,74 @@ Quest for Glory VGA remake debugger
 
 INSTALLATION 
 
-Copy 298.scr, 298.tex and 298.hep to your game folder and start normally. 
+Copy 298.scr and 298.hep to your game folder and start normally. 
+
+Access the debug help in-game by pressing '?' (Shift+/) to see available commands.
 
 
-This is the debug handler from PQ1SCI, but modified to crash less. Broken commands are marked ****below.
+These patche files were compiled using EO's recreation of the missing QfG1VGA debug script: https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/qfg1vga/src/Debug.sc
+
+Info on compliling the script can be found here: https://sciprogramming.com/community/index.php?topic=9160.msg74614#msg74614
+
+============
+Command List
+============
+
+	Key commands:
+	ALT-A show cAst
+	ALT-O create Obstacles
+	ALT-F (vacant)
+	ALT-W Write features
+	ALT-Y (vacant)
+	ALT-R show Room
+	ALT-E (vacant)
+	ALT-M show Memory
+	ALT-T Teleport
+	ALT-V Visual
+	ALT-P Priority
+	ALT-C Control
+	ALT-I get InvItem
+	ALT-S (vacant)
+	ALT-G Set/Clear flag
+	ALT-B set ego's Bucks
+	ALT-D toggle debugging
+	ALT-H set Hour of day
+	ALT-K set one of ego's sKills
+	ALT-X make ego eXtra special
+	ALT-U return User control and input
+	CTRL-L note Logger
 
 
-Command	Action
+======
+skills
+======
+	STR		0
+	INT		1
+	AGIL		2
+	VIT		3
+	LUCK		4
+	WEAPON		5
+	PARRY		6
+	DODGE		7
+	STEALTH		8
+	PICK		9
+	THROW		10
+	CLIMB		11
+	MAGIC		12
+	EXPER		13
+	HEALTH		14
+	STAMINA		15
+	MANA		16
 
-[ALT + A]	Show cast  ***899.tex not found.
-[ALT + B]	PolyEdit
-
-[ALT + C]	Show control lines
-[ALT + P]	Show priority screen
-[ALT + V]	Show visual screen2
-
-[ALT + D]	Place an actor  ****crash
-[ALT + E]	Show ego information  ******899.txt not found
-[ALT + F]	Show feature outlines
-[ALT + G]	Set global
-[ALT + H]	Show global
-[ALT + I]	Give inventory item
-[ALT + J]	Justify text on screen ******enter text (after this, get help CRASH
-[ALT + K]	Show pallet 
-[ALT + L]	Set flag
-[ALT + M]	Clear flag
-[ALT + N]	Show flag  *****<Messager> 1:1,0,4,1 not found 26784
-[ALT + O]	QA Note Logger  ****nothing happens
-[ALT + Q]	Set Detail to 1  *****crash
-[ALT + R]	Show room info/free memory  ****crash
-[ALT + S]	Show a string or message
-[ALT + T]	Teleport
-[ALT + U]	Give HandsOn
-[ALT + X or Z]	Quit Game
-[ALT + W]	Feature writer
-[SHIFT + /]	Help
- 
-[ALT + click]		Move ego
-[Ctrl + L.Shift + click]	Show ego
-[Ctrl + R.Shift + click]	Show room
-[Ctrl + ALT + click]	Show position
-
-
+Magic Spells
+	OPEN		17
+	DETMAGIC	18
+	TRIGGER		19
+	DAZZLE		20
+	ZAP		21
+	CALM		22
+	FLAMEDART	23
+	FETCH		24
 
 ===============
 INVENTORY ITEMS
