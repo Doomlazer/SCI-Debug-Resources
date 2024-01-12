@@ -8,7 +8,7 @@ Work in progress. This repo is incomplete.
 
 ##
 
-This repo was compiled and researched using the following resources:
+Compiled and researched using the following resources:
 
 ### SCIWIKI
 
