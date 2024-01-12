@@ -1,11 +1,9 @@
 Police Quest II version 1.002.011 Debug patch
 
 INSTALLATION 
-Copy script.000 and script.801 into your PQ2 game folder and start normally. 
+Copy script.801 into your PQ2 game folder and start normally. 
 
-Both GOG and Steam versions should be 1.002.011
-If you have issues, check your game version under "About" in the esc menu.
-
+Both GOG and Steam versions should be 1.002.011. Check game version under "About" in the esc menu to verify.
 
 
 Typing KISS ANGEL OF DEATH will toggle the debugger on and off.
