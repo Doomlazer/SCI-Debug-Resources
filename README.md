@@ -10,7 +10,7 @@ Currently a work in progress.
 
 ##
 
-This resource was compiled and researched using the following resources:
+This repo was compiled and researched using the following resources:
 
 ### SCIWIKI
 
