@@ -1,6 +1,10 @@
 # SCI Debug Resources
 
-Many of Sierra's SCI games, such as King's Quest IV, Space Quest III, etc., have a script debugger in addition to the internal debugger. SCI0 debugging is typically activated with a secret phrase, such as PUMP SHARK in SQ3, but SCI1 games typically require a patch file to be exported to enable debugging. 
+Many of Sierra's SCI games have a script debugger in addition to an internal debugger. SCI0 script debugging is typically activated with a secret phrase such as PUMP SHARK in SQ3. 
+
+SCI1 games often require a patch file to be exported to enable debugging. 
+
+If it hasn't been removed the internal debugger is started with LSHIFT+RSHIFT+"-", otherwise this command will crash the game.
 
 Currently a work in progress.
 
