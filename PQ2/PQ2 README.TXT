@@ -1,11 +1,10 @@
 Police Quest II version 1.002.011 Debugging
 
-Notice: until recently the phrase to enable debugging in PQ2 wasn't entirely known. SCIWIKI stated it should be "kiss angel 187".
-I originally created a patch that used "kiss angel death", but I recently discovered that typing "kiss angel of death" will toggle the debugger on and off.
+Typing "kiss angel of death" will toggle the debugger on and off. And is required before the commands below will work.
 
-The patch files I created have been moved to the ExtraCommands folder and can still be used to enable changing flags (the patch files use "kiss angel death" to enable).
+Copy the patch file in the ExtraCommands folder to add a set/clear flag command, which is not part of the normal script debugger.
 
-There will be no confirmation message when enabling or disabling debug; You have to try a debug command to be sure.
+There will be no confirmation message when enabling or disabling debug.
 
 [ALT + P]	Show priority screen
 [ALT + C]	Show control lines
