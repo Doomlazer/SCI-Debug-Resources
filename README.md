@@ -1,12 +1,10 @@
 # SCI Debug Resources
 
-Many of Sierra's SCI games have a script debugger in addition to an internal debugger. SCI0 script debugging is typically activated with a secret phrase such as PUMP SHARK in SQ3. 
+Many of Sierra's SCI games include a script debugger in addition to an internal debugger. SCI0 script debugging is typically activated with a secret phrase, such as PUMP SHARK in SQ3. SCI1 games often require a patch file to be exported to enable debugging. This repo provides those files. Additional debugging commands have been added for certain games.
 
-SCI1 games often require a patch file to be exported to enable debugging. 
+If it hasn't been removed, the internal debugger is started with LSHIFT+RSHIFT+"-", otherwise this command will crash the game.
 
-If it hasn't been removed the internal debugger is started with LSHIFT+RSHIFT+"-", otherwise this command will crash the game.
-
-Currently a work in progress.
+Work in progress.
 
 ##
 
