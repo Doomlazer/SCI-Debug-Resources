@@ -16,7 +16,7 @@ This repo was compiled and researched using the following resources:
 
 http://sciwiki.sierrahelp.com/index.php?title=SCI_Debug_Modes
 
-Info on the SCI Internal Debugger, which exists in addition to game specific script debuggers:
+More info on the SCI Internal Debugger:
 
 http://sciwiki.sierrahelp.com//index.php?title=SCI_Kernel_Documentation/Debugging_Functions
 
