@@ -81,6 +81,7 @@
 				(= cycles 1)
 			)
 			(1
+				(= temp2 0)
 				(= temp0
 					(Print
 						font: 999 ;gSmallFont
