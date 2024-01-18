@@ -87,6 +87,27 @@ fCoconutPoints		;76
 fSkippedRafting		;77
 
 
+Code added to debug script #20:
+
+(KEY_ALT_h	;add flag set and clear
+	(= temp0 (proc255_3 {Toggle Flag Number:}))
+	(if (proc0_22  temp0)
+		(proc255_4 {Cleared flag #%d} temp0)
+		(proc0_20  temp0)
+	else
+		(proc255_4 {Set flag #%d} temp0)
+		(proc0_19  temp0)
+	)
+)
+
+(`^h	;CTRL + H test flag
+	(= temp0 (proc255_3 {Test Flag Number:}))
+	(if (proc0_22  temp0)
+		(proc255_4 {Flag %d is SET} temp0)
+	else
+		(proc255_4 {Flag %d is CLEAR} temp0)
+	)
+)
 
 
 To activate the debug mode, type: "ascot backdrop". The debug mode will be activated changing rooms.
