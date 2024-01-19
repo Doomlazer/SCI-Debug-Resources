@@ -4,16 +4,44 @@ INSTALLATION
 
 Copy 298.scr, 298.txt and 298.hep to your game folder and start normally. 
 
-Access the debug help in-game by pressing '?' (Shift+/) to see available commands.
-
-
-These patch files are based on TCRF debuger (author unknown) with the addition of two new commands Alt+M and Alt+n: https://tcrf.net/Quest_for_Glory:_So_You_Want_to_Be_a_Hero_(1992)#Debug_Mode
 
 ============
 Command List
 ============
 
-See ingame debug help 'Shift+/'
+Keys		Action
+Alt + A		Show cast (info about all on-screen objects).
+Alt + B		Change amount of money.
+Alt + C		Show control map.
+Alt + D		Set Date and Time.
+Alt + E		Show hero info.
+Alt + F		Show feature outlines.
+Alt + G		Change GLOBAL variable.
+Alt + H		Show GLOBAL variable.
+Alt + I		Get inventory item.
+Alt + J		Supposed to be "Justify text on screen", but actually identical to Alt + A.
+Alt + K		Show palette.
+Alt + L		Learn a new spell.
+Alt + M		Set specific skill.
+Alt + N		Set/Clear flag.
+Alt + O		QA Note Logger.
+Alt + P		Show priority map.
+Alt + Q		Set detail to 1.
+Alt + R		Show room info/free memory.
+Alt + S		Show a string or message.
+Alt + T		Teleport.
+Alt + U		Give HandsOn.
+Alt + V		Show visual map.
+Alt + W		Feature writer.
+Alt + X		Set all hero's skills.
+Alt + Y		Polygon Editor.
+Alt + Z		Quick quit.
+Shift + /	Help for the debug mode.
+
+Left click + Alt				Move hero.
+Left click + Ctrl + Left shift		Show hero.
+Left click + Ctrl + Right shift		Show room.
+Left click + Ctrl + Alt			Show position.
 
 ======
 skills
@@ -50,11 +78,11 @@ Magic Spells
 INVENTORY ITEMS
 ===============
 
-iSilver			040
-iRations		1
+iSilver			0
+iRations			1
 iSword			2
 iChainmail		3
-iLeather		4
+iLeather			4
 iShield			5
 iDagger			6
 iLockPick		7
@@ -76,7 +104,7 @@ iFruit			22
 iVegetables		23
 iAcorn			24
 iSeed			25
-iFlowers		26
+iFlowers			26
 iGreenFur		27
 iFairyDust		28
 iFlyingWater 		29
