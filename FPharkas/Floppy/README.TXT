@@ -1,17 +1,19 @@
 Freddy Pharkus debugger 
-Should work with all Floppy and CD versions
+Floppy version
 
 Installation
 
-Copy 10.hep, 10.scr and 10.tex into the root of your game folder and start normally. 
+Copy 10.hep, 10.scr, 10.tex, 29.scr and 29.hep into the root of your game folder and start normally. 
 
-Remove 10.x patch files to uninstall  
+Remove 10.xxx & 29.xxx patch files to uninstall.  
 
 Info from:
 http://sciwiki.sierrahelp.com/index.php/SCI_Debug_Modes#Freddy_Pharkas:_Frontier_Pharmacist
 
 Freddy Pharkas: Frontier Pharmacist
 The "magic" script is 10. However, this script cannot be found in the English release of Freddy Pharkas. Extract 10.SCR/10.HEP/10.TEX from the RESOURCE.MSG file (instead of the usual RESOURCE.000) in a NON-ENGLISH(!) release. I've tested this with the German, Spanish and French release. The extracted script will work with every version of the game, also the English one.
+
+[note: Exporting 29.scr and 29.hep from the forign language version adds a "Where to?" feature and other additional options at the start of game.] 
 
 Command	Action	Notes
 [ALT + A]	Show cast (information about all objects on screen)	 
