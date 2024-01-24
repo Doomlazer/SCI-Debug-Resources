@@ -31,8 +31,10 @@ Command	Action
 [Left mouse click + CTRL + RSHIFT]	Show room info / free memory
 [Left mouse click + CTRL + ALT]	Show position
 
-Bypassing CopyProtection:
 
-To alway enter the correct code, first locate the symbol shown in loop1.png. Then hold CTRL and ALT while clicking that symbol five times. 
+
+Bypass Copy Protection:
+
+To alway enter the correct airport code, first locate the symbol shown in loop1.png on the keypad. Then hold CTRL and ALT while clicking that symbol five times. 
 
 http://sciwiki.sierrahelp.com/index.php/SCI_Debug_Modes#Leisure_Suit_Larry_5
