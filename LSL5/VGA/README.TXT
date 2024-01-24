@@ -37,4 +37,6 @@ Bypass Copy Protection:
 
 To alway enter the correct airport code, first locate the symbol shown in loop1.png on the keypad. Then hold CTRL and ALT while clicking that symbol five times. 
 
+The Telephone and door keypads share the same code with the Copy Protection, so you can bypass both doors in K-RAP by holding CTRL & ALT and clicking "0" five times.
+
 http://sciwiki.sierrahelp.com/index.php/SCI_Debug_Modes#Leisure_Suit_Larry_5
