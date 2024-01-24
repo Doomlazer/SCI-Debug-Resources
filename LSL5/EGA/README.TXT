@@ -1,5 +1,5 @@
 Leisure Suit Larry 5 Debugger
-VGA DOS version (common: GOG, STEAM, etc.) 
+EGA DOS version (uncommon)
 
 Installation
 
