@@ -1,6 +1,7 @@
 LB2 Floppy - Dagger of Amon Ra v1.1
 
-Warning: This debugger is prone to heap crashes due to memory limitations when used in DOSBox. 
+Warning: When used in memory intensive rooms this debugger may crash due to heap limitations under DOSBox or retro hardware.
+
 
 Installation
 
