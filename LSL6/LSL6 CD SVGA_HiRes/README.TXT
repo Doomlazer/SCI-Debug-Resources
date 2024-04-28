@@ -42,3 +42,5 @@ Commands not ported because of missing kernel functions in SCI32:
 //[ALT + V]	Show visual map	 
 //[ALT + W]	Feature writer
 //[ALT + Y]	Adjust vanishing point	
+
+The HiRes version includes these additional debugging features built in: http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Leisure_Suit_Larry_6_.28SVGA_CD_version.29
