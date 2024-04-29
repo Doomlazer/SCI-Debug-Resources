@@ -54,6 +54,7 @@ fMerrilyCartoon 8
 fRecordPlayerOn	9
 fShowingFeatures 22
 fEgoNaked 74
+fDisableSaveRestore? 86
 fTouchedDaryl 91
 fThunderbirdCartoon 92
 fDarylStopsLarry 95
