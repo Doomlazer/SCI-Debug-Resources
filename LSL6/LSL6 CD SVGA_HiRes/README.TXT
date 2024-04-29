@@ -2,12 +2,12 @@ Leisure Suit Larry 6 CD Debugger (HiRes version!)
 
 The HiRes version includes these additional, unique debugging features built-in: http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Leisure_Suit_Larry_6_.28SVGA_CD_version.29
 
-The debugHandler script #911 is missing from the HiRes game files, so several common debug commands and the Where to? menu were ported over to this version. 
+The debugHandler script #911 is missing from the HiRes game files, so several common debug commands and the "Where to?" menu were ported over to this version. 
 
 
 Installation
 
-Copy 911.scr, 911.hep and 911.tex to the PATCHES folder of your LSL6 game folder. 
+Copy 911.scr & 911.hep to the PATCHES folder of your LSL6 game folder. 
 If you are using DOSBox you must edit the RESOURCES.CFG file in the LSL6 root folder by changing the line:
 
  patchDir  = .
