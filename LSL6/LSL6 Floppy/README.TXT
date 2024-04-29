@@ -36,4 +36,17 @@ Command	Action	Notes
 [ALT + X]	Exit game	 
 [ALT + Y]	Adjust vanishing point	 
 [ALT + Z]	Exit game	 
-[SHIFT + /]	Help	 
+[SHIFT + /]	Help
+
+Event flags, borrowed from https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/lsl6svga/src/game.sh
+fFragment 1
+fMissileDeath 2
+fMerrilyCartoon 8
+fRecordPlayerOn	9
+fShowingFeatures 22
+fEgoNaked 74
+fTouchedDaryl 91
+fThunderbirdCartoon 92
+fDarylStopsLarry 95
+fWonGame 97
+fShamaraAgrees 100

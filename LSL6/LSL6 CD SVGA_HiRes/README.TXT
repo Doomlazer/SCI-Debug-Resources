@@ -49,3 +49,17 @@ Commands not ported because of missing features in SCI32 or other issues:
 //[ALT + V]	Show visual map	 
 //[ALT + W]	Feature writer
 //[ALT + Y]	Adjust vanishing point	
+
+
+Event flags, borrowed from https://github.com/EricOakford/SCI-Decompilation-Archive/blob/master/lsl6svga/src/game.sh
+fFragment 1
+fMissileDeath 2
+fMerrilyCartoon 8
+fRecordPlayerOn	9
+fShowingFeatures 22
+fEgoNaked 74
+fTouchedDaryl 91
+fThunderbirdCartoon 92
+fDarylStopsLarry 95
+fWonGame 97
+fShamaraAgrees 100
