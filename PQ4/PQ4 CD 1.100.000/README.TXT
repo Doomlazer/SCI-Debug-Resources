@@ -9,14 +9,16 @@ http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Police_Quest_4_.2
 
 Command	Action	Notes
 [ALT + A]	Show cast (information about all objects on screen)	 
-[ALT + E]	Show ego information	 
+[ALT + E]	Show ego information
+[ALT + G]	Set/Clear Flags ; not listed in help
+[ALT + H]	Show palette	 
 [ALT + I]	Get inventory item	 
-[ALT + K]	Show palette	Doesn't seem to do anything
+[ALT + H]	Show palette ; mislabed ALT+K in help
+[ALT + L]	Logger ; mislabed CTRL+L in help
 [ALT + R]	Show room info / free memory	 
 [ALT + T]	Teleport (change room/scene/script)	 
 [ALT + U]	Give HandsOn (return user control)	 
-[ALT + X]	Exit game	 
-[ALT + L]	QA logger	
+[ALT + X]	Exit game	 	
 [CTRL + S]	Sound test	 
 [SHIFT + /]	Help	 
 [Left mouse click + ALT]	Instant movement	 
