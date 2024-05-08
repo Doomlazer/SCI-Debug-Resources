@@ -1,7 +1,10 @@
 Debugger for Space Quest IV CD Version 1.0
 
-While a leaked beta version of SQ4 included a debugger, it was removed from all retail releases.
-This is a recreation of that beta debugger for SQ4CD with some fixes and improvements.
+While a leaked beta version of SQ4 included a debugger, it was removed from the floppy version. This is a recreation of that beta debugger for SQ4CD with some fixes and improvements.
+
+The CD version actually still includes the debugHandler (script 800), but exporting it doesn't do anything because the code that sends key presses to it have been removed. 
+
+One can use the native SQIVCD debugger by using the 0.scr & 0.hep files from this folder and also exporting 800.scr from the CD's game files, but it's missing the set/clear flag command and several commands use different keys for a few commands.
 
 This patch is based on info found the SCI Wiki:
 http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Space_Quest_4_.28beta.29
@@ -10,8 +13,7 @@ http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Space_Quest_4_.28
 INSTALLATION 
 ============
 
-Copy 800.scr. 800.hep. 800.txt, 0.scr and 0.hep to your SQ4 game folder and start normally. This will overwrite your 
-This patch only works with the CD version. 
+Copy 800.scr. 800.hep. 800.txt, 0.scr and 0.hep to your SQ4 game folder and start normally. This patch only works with the CD version. 
 
 To uninstall, remove the patch files.
 
@@ -25,7 +27,7 @@ Command	Action	Notes
 [ALT + G]	Set global variable
 [ALT + H]	show memory (swapped from Alt+F for reasons)
 [ALT + I]	Get inventory item
-[ALT + k]	show Palette
+[ALT + K]	show Palette
 [ALT + M]	Gives 20 buckazoids/money
 [ALT + N]	QA logger
 [ALT + P]	Show priority map	 

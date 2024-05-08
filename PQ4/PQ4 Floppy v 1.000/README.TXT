@@ -7,7 +7,8 @@ Copy 1.hep and 1.scr into the PQ4 game folder and start normally.
 
 Command	Action	Notes
 [ALT + A]	Show cast (information about all objects on screen)	 
-[ALT + E]	Show ego information	 
+[ALT + E]	Show ego information
+[ALT + G]	Set/Clear flag 
 [ALT + I]	Get inventory item	 
 [ALT + R]	Show room info / free memory	 
 [ALT + S]	Switch alter ego	This option is very buggy or will crash the game instantly
