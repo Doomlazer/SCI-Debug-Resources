@@ -4,14 +4,12 @@ While a leaked beta version of SQ4 included a debugger, it was removed from the 
 
 Technical Note: For some reason SCICompanion can't compile the SQ4 floppy main script as a patch file, so to allow for this to work, Game::handleEvent passes events to the debug script. Because of this the debugger does not include the traditional "Where to?" at the start of the game - just use TP instead.
 
-This patch is based on info found the SCI Wiki:
-http://sciwiki.sierrahelp.com//index.php?title=SCI_Debug_Modes#Space_Quest_4_.28beta.29
 
 ============
 INSTALLATION 
 ============
 
-Copy script.800, text.800, and script.994 to your SQ4 game folder and start normally. This patch only works with the CD version. 
+Copy script.800, text.800, and script.994 to your SQ4 game folder and start normally. This patch only works with the Floppy version. 
 
 To uninstall, remove the patch files.
 
