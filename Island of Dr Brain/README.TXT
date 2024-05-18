@@ -1,5 +1,5 @@
 Island of Dr. Brain Debugger 
-tested on v1.0
+Seems to work on both the floppy and CD version
 
 ISTALLATION 
 
@@ -7,7 +7,7 @@ Copy files 800.scr and 800.hep to game folder and start normally.
 
 
 Since script 800.scr is missing from the game files it needs to be recreated from scratch.
-More commands could be added, but it was pain enough getting TP to work.
+More commands could be added, but it was pain enough getting TP to work. If anyone is interested in better debugging for this game let me know, but it's a low priority for me at the moment.
 
 Commands
 
