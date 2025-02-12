@@ -1,0 +1,175 @@
+screen	sierra	description	
+	no
+
+isle of crowns
+
+2	200	beach		
+3	210	tree		
+4	220	castle gate	
+5	230	castle wall
+6	240	village 1
+7	250	village 2
+8	260	ferry docks
+9	270	book shop
+10	280	pawn brokers
+11	290	ferry boat
+
+cartoons
+
+12	130	magicmap
+13	135     ocean
+14	140	cassima
+15	145	vizier/genie
+16	150	alex/vizier
+17	155	nightmare
+18	160	v & c wed
+19	165	a & c wed
+20	180	alex prop
+
+isle of wonder
+
+23	450	beach
+24	460	!
+25	470	swamp
+26	480	gardens
+27	490	chessboard
+
+isle of beast
+
+28	500	beach
+29	510	stone archer
+30	520	boiling pond
+31	540	beasts garden
+
+isle of mists
+
+32	550	beach
+33	560	druids woods
+34	580	stone circle
+
+realm of dead
+
+35	600	surface 1
+36	630	surface 2
+37	640	entrance
+38	650	passage
+39	660	river styx
+40	670	gates
+41	680	hall
+42	690	lord of dead
+
+castle
+
+43	700	stairs
+44	710	west basement
+45	720	north basement
+46	730	grand hall
+47	740	throne room
+48	750	tower room
+49	770	treasure room
+50	780	bedrooms
+51	790	tower landing
+52	800	passage landing
+53	810	passage hallway
+54	820	dungeon
+55	840	east basement
+56	850	west upstairs
+57	860	east upstairs
+58	870	north upstairs
+59	880	behind pillar	
+
+isle of sacred mountain
+
+12	300	beach
+13	320	logic cliff
+14	330	top of cliffs
+15	350	winged gates
+16	370	palace nest
+17	380	oracle
+18	390	caves
+
+labyrinth
+
+19	400	generic rooms
+20	410	spike maze
+21	420	crushing room
+22	440	minotaurs lair
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28/6	0
+ 5/7	2
+12/7	4
+19/7	6
+
